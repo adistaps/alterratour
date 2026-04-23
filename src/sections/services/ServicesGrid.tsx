@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { SectionHeader } from '@/components/SectionHeader';
 import { GreenIconCircle } from '@/components/GreenIconCircle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
