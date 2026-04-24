@@ -25,7 +25,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-block text-primary font-semibold tracking-[0.25em] text-xs uppercase mb-6"
+            className="inline-block text-primary font-semibold tracking-[0.1em] sm:tracking-[0.25em] text-[10px] sm:text-xs uppercase mb-6"
           >
             Alterra Tour & Travel · Yogyakarta
           </motion.span>
@@ -35,7 +35,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, delay: 0.1 }}
-            className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight"
+            className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tight"
           >
             Sewa Hiace<br />
             <span className="text-primary font-extrabold">Jogja</span>

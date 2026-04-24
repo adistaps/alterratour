@@ -57,7 +57,7 @@ const itemVariants = {
 
 export function LayananTerbaikSection() {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-white overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title="LAYANAN TERBAIK"

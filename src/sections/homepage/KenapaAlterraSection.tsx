@@ -55,7 +55,7 @@ const itemVariants = {
 
 export function KenapaAlterraSection() {
   return (
-    <section className="py-20 md:py-28 bg-gradient-to-b from-secondary to-white">
+    <section className="py-20 md:py-28 bg-gradient-to-b from-secondary to-white overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title="KENAPA ALTERRA TOUR?"
